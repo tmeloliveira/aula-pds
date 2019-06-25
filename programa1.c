@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main () {
-  // Declaramos a variável x, e atribuímos o valor 1
+  // Declaramos a variável x, e atribuímos o valor 10
   int x = 10;
   // Imprime o valor de x
   printf("Valor: %i\n", x);

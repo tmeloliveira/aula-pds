@@ -32,16 +32,16 @@ int main () {
     Em resumo:
 
     Um endereço diz onde a variável está armazenada na memória.
-    O endereço é constante, mas o valor pode mudar.
-    O endereço aponta para um valor.
+    Um ponteiro aponta para um endereço de memória.
+    O endereço é constante, mas o valor armazenado nele pode mudar.
 
     Para variável normal:
       - x acessa o valor
-      - &x acessa o endereço
+      - &x acessa o endereço (referenciando)
 
     Para ponteiro:
       - y acessa o endereço
-      - *y acessa o valor
+      - *y acessa o valor (des-referenciando)
   */
 
   return 0;
