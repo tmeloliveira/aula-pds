@@ -26,9 +26,9 @@ int main () {
   printf("Tamanho de um vetor de 100 double: \t%lu bytes\n\n", sizeof(v_double));
 
   // Imprime o tamanho de ponteiros de cada tipo de dados
-  printf("Tamanho de um ponteiro de inteiros: \t%lu bytes\n", sizeof(p_int));
-  printf("Tamanho de um ponteiro de char: \t%lu bytes\n", sizeof(p_char));
-  printf("Tamanho de um ponteiro de double: \t%lu bytes\n", sizeof(p_double));
+  printf("Tamanho de um ponteiro de inteiros: \t%lu bytes\n", sizeof(*p_int));
+  printf("Tamanho de um ponteiro de char: \t%lu bytes\n", sizeof(*p_char));
+  printf("Tamanho de um ponteiro de double: \t%lu bytes\n", sizeof(*p_double));
 
   return 0;
 }
