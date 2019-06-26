@@ -1,22 +1,21 @@
 #include <stdio.h>
 
-void troca_sqn(int a, int b) {
-  /* 
+void troca(int a, int b) {
+  /*
     Opa! Recebi dois valores!
     Deixa eu fazer uma copia deles em a e b
-    pra poder trocar! 
+    pra poder trocar!
   */
   int aux;
   aux = a;
   a = b;
   b = aux;
 
-  printf("\n\n>> troca_sqn");
-  printf("\n\ttroca_sqn a: %i", a);
-  printf("\n\ttroca_sqn b: %i", b);
-  /* 
-    Pronto, troquei a com b!
-    Espero que a "main" goste! :)
+  printf("\n\n>> troca");
+  printf("\n\ttroca a: %i", a);
+  printf("\n\ttroca b: %i", b);
+  /*
+    Pronto, acho que troquei a com b!
   */
 }
 
@@ -25,24 +24,24 @@ int main () {
   x = 16;
   y = 25;
 
-  printf(">> main (antes de chamar troca_sqn)");
+  printf(">> main (antes de chamar troca)");
   printf("\n\tmain x: %i", x);
   printf("\n\tmain y: %i", y);
 
   /*
-    Ei "troca_sqn"! Toma aqui o valor de duas 
-    variáveis x e y. Troca elas pra mim! 
-  */ 
-  troca_sqn(x, y);
+    Ei "troca"! Toma aqui o valor de duas
+    variáveis x e y. Troca elas pra mim!
+  */
+  troca(x, y);
 
 
-  printf("\n\n>> main (depois de chamar troca_sqn)");
+  printf("\n\n>> main (depois de chamar troca)");
   printf("\n\tmain x: %i", x);
   printf("\n\tmain y: %i\n", y);
   /*
     Ué? Elas continuam iguais pra mim!
     Porque não trocou? :(
-  */ 
+  */
 
   return 0;
 }

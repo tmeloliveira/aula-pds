@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void troca(int *a, int *b) {
-  /* 
+  /*
     Opa! Recebi dois endereços!
     Vou acessar os valores armazenados neles
     pra poder fazer a troca!
@@ -18,7 +18,7 @@ void troca(int *a, int *b) {
   /*
     Pronto! Troquei os valores que estavam
     armazenados nos endereços *a e *b.
-    Quando a "main" olhar pros endereços, 
+    Quando a "main" olhar pros endereços,
     já vai estar tudo trocado! :)
   */
 }
@@ -34,18 +34,18 @@ int main () {
   printf("\n\tmain y: %i", y);
 
   /*
-    Ei "troca"! Toma aqui o endereço de duas 
-    variáveis x e y. Troca elas pra mim! 
-  */ 
+    Ei "troca"! Toma aqui o endereço de duas
+    variáveis x e y. Troca elas pra mim!
+  */
   troca(&x, &y);
 
   printf("\n\n>> main (depois de chamar troca)");
   printf("\n\tmain x: %i", x);
   printf("\n\tmain y: %i\n", y);
   /*
-    Valeu "troca"! 
+    Valeu "troca"!
     Agora sim as duas estão trocadas! :)
-  */ 
+  */
 
   return 0;
 }
