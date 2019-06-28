@@ -1,3 +1,13 @@
+/* 
+
+  Para compilar:
+  $ gcc programa4b.c -o p4b
+
+  Para executar:
+  $ ./p4b
+
+*/
+
 #include <stdio.h>
 
 void troca(int a, int b) {

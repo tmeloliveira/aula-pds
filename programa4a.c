@@ -1,3 +1,13 @@
+/* 
+
+  Para compilar:
+  $ gcc programa4a.c -o p4a
+
+  Para executar:
+  $ ./p4a
+
+*/
+
 #include <stdio.h>
 
 void eleva_quadrado_val(int x) {

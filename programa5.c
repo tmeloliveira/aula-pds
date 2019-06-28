@@ -1,3 +1,13 @@
+/* 
+
+  Para compilar:
+  $ gcc programa5.c -o p5
+
+  Para executar:
+  $ ./p5
+
+*/
+
 #include <stdio.h>
 
 void imprime_vetor_via_indice(int v[], int n) {

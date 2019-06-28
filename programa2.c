@@ -1,3 +1,13 @@
+/* 
+
+  Para compilar:
+  $ gcc programa2.c -o p2
+
+  Para executar:
+  $ ./p2
+
+*/
+
 #include <stdio.h>
 
 int main () {

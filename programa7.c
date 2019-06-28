@@ -1,3 +1,13 @@
+/* 
+
+  Para compilar:
+  $ gcc programa7.c -o p7
+
+  Para executar:
+  $ ./p7
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h> // necessário para usar as funções malloc() e free()
     
